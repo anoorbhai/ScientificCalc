@@ -1,5 +1,4 @@
 <!-- source - winterfell coder -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,70 +8,70 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="display">
+    <main class="container">
+        <section class="display">
             <input id="screen" type="text" placeholder="0">
-        </div>
+        </section>
 
-        <div class="btns">
+        <nav class="btns">
 
-            <div class="row">
+            <article class="row">
                 <button id="ac" onclick="screen.value=''">AC</button>
                 <button id="ce" onclick="backspc()">CE</button>
-            </div>
+            </article>
 
-            <div class="row">
+            <article class="row">
                 <button class="btn">%</button>
                 <button onclick="fact()">x!</button>
                 <button onclick="sin()">sin</button>
                 <button onclick="cos()">cos</button>
-            </div>
+            </article>
 
-            <div class="row">
+            <article class="row">
                 <button onclick="tan()">tan</button>
                 <button onclick="log()">log</button>
                 <button onclick="sqrt()">√</button>
                 <button onclick="pi()">π</button>
-            </div>
+            </article>
 
-            <div class="row">
+            <article class="row">
                 <button onclick="e()">e</button>
                 <button onclick="pow()">x <span style="position: relative; bottom: .4em; right: .1em;">y</span>
                 </button>
                 <button class="btn">(</button>
                 <button class="btn">)</button>
-            </div>
+            </article>
 
-            <div class="row">
+            <article class="row">
                 <button class="btn">7</button>
                 <button class="btn">8</button>
                 <button class="btn">9</button>
                 <button class="btn">÷</button>
-            </div>
+            </article>
 
-            <div class="row">
+            <article class="row">
                 <button class="btn">4</button>
                 <button class="btn">5</button>
                 <button class="btn">6</button>
                 <button class="btn">×</button>
-            </div>
+            </article>
 
-            <div class="row">
+            <article class="row">
                 <button class="btn">1</button>
                 <button class="btn">2</button>
                 <button class="btn">3</button>
                 <button class="btn">-</button>
-            </div>
+            </article>
 
-            <div class="row">
+            <article class="row">
                 <button class="btn">0</button>
                 <button class="btn">.</button>
                 <button class="btn">+</button>
                 <button id="eval" onclick="calculate()">=</button>             
-            </div>
+            </article>
 
-        </div>
-    </div>
+        </nav>
+    </main>
 
     <label class="switch">
         <input type="checkbox" id="s">
